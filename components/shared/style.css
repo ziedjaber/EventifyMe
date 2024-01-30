@@ -1,0 +1,118 @@
+.li{
+ display: inline-block;
+ margin-left: 140px;
+}
+.x{
+  text-align: right;
+  margin-top: -20px;
+}
+.menu{
+    text-align: right;
+    margin-top: auto;
+}
+.footer {
+  background-color: rgb(65, 1, 83);
+  color: #fff;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.img{
+  margin-left: 300px;
+}
+#eventForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.formContainer {
+  max-width: 600px;
+  width: 100%;
+}
+
+.spaceY4 {
+  margin-bottom: 2rem;
+}
+
+.datePicker {
+}
+
+#footer{
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgb(16, 32, 112);
+  color: wheat;
+  
+}
+#footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#upload{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px double rgb(0, 195, 255);
+  margin-top: 20px;
+}
+/* Add this to your existing CSS or create a new CSS file */
+.location-input .input-with-icon {
+  position: relative;
+}
+
+.location-input .input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px; /* Adjust this value as needed */
+}
+/* Add this to your existing CSS or create a new CSS file */
+/* Add this to your existing CSS or create a new CSS file */
+.date-input .date-input-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #e4e2e2e5; /* Add this line to create a gray border */
+  border-radius: 5px; /* Add this line to add a border radius */
+  padding: 8px; /* Add this line to add padding inside the container */
+  margin-top: 10px;
+}
+
+.date-input .date-icon {
+  margin-right: 10px; /* Adjust this value as needed */
+}
+
+.date-input .date-picker-container {
+  flex: 1;
+}
+
+/* Add this to your existing CSS or create a new CSS file */
+.price-input .price-input-container,
+.url-input .url-input-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ccc; /* Add this line to create a gray border */
+  border-radius: 5px; /* Add this line to add a border radius */
+  padding: 8px; /* Add this line to add padding inside the container */
+  margin-bottom: 16px; /* Add this line to create space between the inputs */
+}
+
+.price-input .price-icon,
+.url-input .url-icon {
+  margin-right: 10px; /* Adjust this value as needed */
+}
+
+.price-input .price-input-field,
+.url-input .url-input-field {
+  flex: 1;
+  border: none; /* Remove default input border */
+  outline: none; /* Remove default input outline */
+}
+
+.price-input .free-checkbox {
+  margin-left: 10px; /* Adjust this value as needed */
+}
