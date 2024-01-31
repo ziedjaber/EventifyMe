@@ -10,13 +10,22 @@ import { handleError } from '@/lib/utils'
 
 import { CreateUserParams, UpdateUserParams } from '@/types'
 
-export const createUser = async (user: CreateUserParams) => {
-    const newUser = new User(user)
-    const savedUser=await newUser.save();
-    return savedUser;
-    console.log("Done creating")
-  
-};
+export async function createUser(user: CreateUserParams) {
+  try {
+    await connectToDatabase()
+    console.log(user);
+    const newUser = await User.create(user)
+    await newUser.save()
+    
+    return JSON.parse(JSON.stringify(newUser))
+
+  } catch (error) {
+    console.log("Error creating user");
+    handleError(error)
+    
+  }
+}
+
 
 export async function getUserById(userId: string) {
   try {

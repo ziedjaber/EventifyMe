@@ -12,7 +12,7 @@ variable:'--font-poppins',
 export const metadata: Metadata = {
   title: 'orgeve',
   description: 'orgeve is a platform for event management',
-  icons:'/assets/images/logo.svg'
+  icons:'/assets/images/logo.png'
 }
 
 export default function RootLayout({

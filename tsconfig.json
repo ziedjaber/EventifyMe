@@ -20,7 +20,7 @@
       }
     ],
 
-    "types": ["@types/clerk__nextjs"],
+    "typeRoots": ["node_modules/@types", "./types"],
 
     "paths": {
       "@/*": ["./*"]
